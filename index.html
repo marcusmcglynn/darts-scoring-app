@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Darts Scoring App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Darts Scoring App</h1>
+      <nav id="navlinks">
+        <a href="./">Single Player</a>
+        <a href="multiplayer.html">Multiplayer</a>
+      </nav>
+    </header>
+
+    <div id="player1">
+      <h2 id="player1-name">Please click button to enter username...</h2>
+      <button id="usernameBtn">Click me</button>
+
+      <h2 id="gameTitle">Gamemode</h2>
+      <div class="gameMode">
+        <button class="gameModeBtn" id="501">501</button>
+        <button class="gameModeBtn" id="301">301</button>
+      </div>
+
+      <section class="scoreboard">
+        <div class="current-score">
+          <img class="up-arrow" src="Images/up.gif" alt="Up Arrow" />
+          <h2>
+            Current Score: <span id="currentScore">Please choose gamemode</span>
+          </h2>
+        </div>
+        <h3>Remaining Darts: <span id="remainingDarts">3</span></h3>
+        <div class="darts-container">
+          <img id="dart1" class="darts" src="Images/dart.png" alt="Dart" />
+          <img id="dart2" class="darts" src="Images/dart.png" alt="Dart" />
+          <img id="dart3" class="darts" src="Images/dart.png" alt="Dart" />
+        </div>
+      </section>
+
+      <section class="common-scores">
+        <h3>Common Scores</h3>
+        <button class="score-btn" data-score="180">180</button>
+        <button class="score-btn" data-score="140">140</button>
+        <button class="score-btn" data-score="100">100</button>
+        <button class="score-btn" data-score="60">60</button>
+        <button class="score-btn" data-score="26">26</button>
+      </section>
+
+      <section class="board-numbers">
+        <h3>Single Numbers</h3>
+        <div class="multiplier-buttons">
+          <button class="multiply" id="single">Single X1</button>
+          <button class="multiply" id="double">Double X2</button>
+          <button class="multiply" id="treble">Treble X3</button>
+        </div>
+
+        <div class="number-buttons">
+          <button class="number-btn" data-score="1">1</button>
+          <button class="number-btn" data-score="2">2</button>
+          <button class="number-btn" data-score="3">3</button>
+          <button class="number-btn" data-score="4">4</button>
+          <button class="number-btn" data-score="5">5</button>
+          <button class="number-btn" data-score="6">6</button>
+          <button class="number-btn" data-score="7">7</button>
+          <button class="number-btn" data-score="8">8</button>
+          <button class="number-btn" data-score="9">9</button>
+          <button class="number-btn" data-score="10">10</button>
+          <button class="number-btn" data-score="11">11</button>
+          <button class="number-btn" data-score="12">12</button>
+          <button class="number-btn" data-score="13">13</button>
+          <button class="number-btn" data-score="14">14</button>
+          <button class="number-btn" data-score="15">15</button>
+          <button class="number-btn" data-score="16">16</button>
+          <button class="number-btn" data-score="17">17</button>
+          <button class="number-btn" data-score="18">18</button>
+          <button class="number-btn" data-score="19">19</button>
+          <button class="number-btn" data-score="20">20</button>
+          <button id="outer-bull" class="number-btn" data-score="25">
+            25 (Outer Bull)
+          </button>
+          <button id="bullseye" class="number-btn" data-score="50">
+            50 (Bullseye)
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>Marcus McGlynn</p>
+    </footer>
+  </body>
+</html>

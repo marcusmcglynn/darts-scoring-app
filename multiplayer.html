@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="multiplayer.css" />
+    <title>My Darts Scoring App - Multiplayer</title>
+  </head>
+  <body>
+    <header>
+      <h1>Darts Scoring App</h1>
+      <nav id="navlinks">
+        <a href="./">Single Player</a>
+        <a href="multiplayer.html">Multiplayer</a>
+      </nav>
+    </header>
+    <main>
+      <div id="player1">
+        <h2 id="player1-name">
+          Player 1 - Please click button to enter username...
+        </h2>
+        <button id="usernameBtn1">Click me</button>
+        <h2 id="gameTitle1">Gamemode</h2>
+        <div class="gameMode">
+          <button class="gameModeBtn" id="501p1">501</button>
+          <button class="gameModeBtn" id="301p1">301</button>
+        </div>
+
+        <section class="scoreboard">
+          <div class="current-score">
+            <h2>
+              Current Score:
+              <span id="currentScore1">Please choose gamemode</span>
+            </h2>
+          </div>
+          <h3>Remaining Darts: <span id="remainingDarts1">3</span></h3>
+          <img
+            id="dart1p1"
+            class="darts"
+            src="Images/dart.png"
+            alt="Image of a dart"
+          />
+          <img
+            id="dart2p1"
+            class="darts"
+            src="Images/dart.png"
+            alt="Image of a dart"
+          />
+          <img
+            id="dart3p1"
+            class="darts"
+            src="Images/dart.png"
+            alt="Image of a dart"
+          />
+        </section>
+
+        <section class="common-scores">
+          <h3>Common Scores</h3>
+          <button class="score-btn" data-score="180" id="commonScore180p1">
+            180
+          </button>
+          <button class="score-btn" data-score="140" id="commonScore140p1">
+            140
+          </button>
+          <button class="score-btn" data-score="100" id="commonScore100p1">
+            100
+          </button>
+          <button class="score-btn" data-score="60" id="commonScore60p1">
+            60
+          </button>
+          <button class="score-btn" data-score="26" id="commonScore26p1">
+            26
+          </button>
+        </section>
+
+        <section class="board-numbers">
+          <h3>Single Numbers</h3>
+          <button class="multiply" id="singlep1">Single X1</button>
+          <button class="multiply" id="doublep1">Double X2</button>
+          <button class="multiply" id="treblep1">Treble X3</button>
+          <div class="number-buttons">
+            <button class="number-btn" data-score="1" id="score1p1">1</button>
+            <button class="number-btn" data-score="2" id="score2p1">2</button>
+            <button id="outer-bullp1" class="number-btn" data-score="25">
+              25 (Outer Bull)
+            </button>
+            <button id="bullseyep1" class="number-btn" data-score="50">
+              50 (Bullseye)
+            </button>
+          </div>
+        </section>
+        <div class="number-buttons">
+          <button class="number-btn" data-score="1">1</button>
+          <button class="number-btn" data-score="2">2</button>
+          <button class="number-btn" data-score="3">3</button>
+          <button class="number-btn" data-score="4">4</button>
+          <button class="number-btn" data-score="5">5</button>
+          <button class="number-btn" data-score="6">6</button>
+          <button class="number-btn" data-score="7">7</button>
+          <button class="number-btn" data-score="8">8</button>
+          <button class="number-btn" data-score="9">9</button>
+          <button class="number-btn" data-score="10">10</button>
+          <button class="number-btn" data-score="11">11</button>
+          <button class="number-btn" data-score="12">12</button>
+          <button class="number-btn" data-score="13">13</button>
+          <button class="number-btn" data-score="14">14</button>
+          <button class="number-btn" data-score="15">15</button>
+          <button class="number-btn" data-score="16">16</button>
+          <button class="number-btn" data-score="17">17</button>
+          <button class="number-btn" data-score="18">18</button>
+          <button class="number-btn" data-score="19">19</button>
+          <button class="number-btn" data-score="20">20</button>
+          <button id="outer-bull" class="number-btn" data-score="25">
+            25 (Outer Bull)
+          </button>
+          <button id="bullseye" class="number-btn" data-score="50">
+            50 (Bullseye)
+          </button>
+        </div>
+      </div>
+
+      <div id="player2">
+        <h2 id="player2-name">
+          Player 2 - Please click button to enter username...
+        </h2>
+        <button id="usernameBtn2">Click me</button>
+        <h2 id="gameTitle2">Gamemode</h2>
+        <div class="gameMode">
+          <button class="gameModeBtn" id="501p2">501</button>
+          <button class="gameModeBtn" id="301p2">301</button>
+        </div>
+
+        <section class="scoreboard">
+          <div class="current-score">
+            <h2>
+              Current Score:
+              <span id="currentScore2">Please choose gamemode</span>
+            </h2>
+          </div>
+          <h3>Remaining Darts: <span id="remainingDarts2">3</span></h3>
+          <img
+            id="dart1p2"
+            class="darts"
+            src="Images/dart.png"
+            alt="Image of a dart"
+          />
+          <img
+            id="dart2p2"
+            class="darts"
+            src="Images/dart.png"
+            alt="Image of a dart"
+          />
+          <img
+            id="dart3p2"
+            class="darts"
+            src="Images/dart.png"
+            alt="Image of a dart"
+          />
+        </section>
+
+        <section class="common-scores">
+          <h3>Common Scores</h3>
+          <button class="score-btn" data-score="180" id="commonScore180p2">
+            180
+          </button>
+          <button class="score-btn" data-score="140" id="commonScore140p2">
+            140
+          </button>
+          <button class="score-btn" data-score="100" id="commonScore100p2">
+            100
+          </button>
+          <button class="score-btn" data-score="60" id="commonScore60p2">
+            60
+          </button>
+          <button class="score-btn" data-score="26" id="commonScore26p2">
+            26
+          </button>
+        </section>
+
+        <section class="board-numbers">
+          <h3>Single Numbers</h3>
+          <button class="multiply" id="singlep2">Single X1</button>
+          <button class="multiply" id="doublep2">Double X2</button>
+          <button class="multiply" id="treblep2">Treble X3</button>
+          <div class="number-buttons">
+            <button class="number-btn" data-score="1" id="score1p2">1</button>
+            <button class="number-btn" data-score="2" id="score2p2">2</button>
+            <button id="outer-bullp2" class="number-btn" data-score="25">
+              25 (Outer Bull)
+            </button>
+            <button id="bullseyep2" class="number-btn" data-score="50">
+              50 (Bullseye)
+            </button>
+          </div>
+        </section>
+        <div class="number-buttons">
+          <button class="number-btn" data-score="1">1</button>
+          <button class="number-btn" data-score="2">2</button>
+          <button class="number-btn" data-score="3">3</button>
+          <button class="number-btn" data-score="4">4</button>
+          <button class="number-btn" data-score="5">5</button>
+          <button class="number-btn" data-score="6">6</button>
+          <button class="number-btn" data-score="7">7</button>
+          <button class="number-btn" data-score="8">8</button>
+          <button class="number-btn" data-score="9">9</button>
+          <button class="number-btn" data-score="10">10</button>
+          <button class="number-btn" data-score="11">11</button>
+          <button class="number-btn" data-score="12">12</button>
+          <button class="number-btn" data-score="13">13</button>
+          <button class="number-btn" data-score="14">14</button>
+          <button class="number-btn" data-score="15">15</button>
+          <button class="number-btn" data-score="16">16</button>
+          <button class="number-btn" data-score="17">17</button>
+          <button class="number-btn" data-score="18">18</button>
+          <button class="number-btn" data-score="19">19</button>
+          <button class="number-btn" data-score="20">20</button>
+          <button id="outer-bull" class="number-btn" data-score="25">
+            25 (Outer Bull)
+          </button>
+          <button id="bullseye" class="number-btn" data-score="50">
+            50 (Bullseye)
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
